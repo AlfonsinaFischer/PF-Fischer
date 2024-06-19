@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
+.menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000
+  }
+
+.bckg-color {
+    background-color: #fdced9;
+    width: 100%;
+}
+
+.bckg-color2 {
+    background-color: #fffcfb;
+    width: 100%;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+}
+    
+.bckg-color3 {
+    background-color: #e6bbb4;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-top: 0;    
+    margin-bottom: 0;
+}   
+    
+.lightpink {
+    font-size: 4rem;
+    color: #fffdfc
+}
+
+.darkgrey {
+    font-size: 1.5rem;
+    color: rgb(36, 36, 36);
+}
+    
+.footerbckg {
+    margin-top: 20px;
+    background-color: #e6bbb4;
+    text-align: center;
+    padding: 10px;
+}
+    
+.productlistsets {
+    margin-top: 2rem;
+    }
+
