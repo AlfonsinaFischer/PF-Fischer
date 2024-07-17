@@ -1,0 +1,10 @@
+
+.inspo {
+    font-size: 3rem; 
+
+    @for $i from 1 through 6 {
+        .item:nth-child(#{$i}) {
+            color: lighten($colorblack, $i * 10);
+        }
+    }
+}

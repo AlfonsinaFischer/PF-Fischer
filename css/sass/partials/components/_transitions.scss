@@ -1,0 +1,10 @@
+.transition {
+    width: 450px; 
+    height: 450px;
+    transition: width 1s, height 1s ease-out;
+
+    &:hover {
+        width: 550px;
+        height: 550px;
+    }
+}
