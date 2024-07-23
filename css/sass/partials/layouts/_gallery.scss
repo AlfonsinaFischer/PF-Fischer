@@ -1,0 +1,18 @@
+@import "../components/transitions";
+@import "../colors";
+
+
+.gallery {
+    background-color: $gallerybackground;
+    padding: 50px 0;
+
+    img {
+        border: 2px solid $gallerypink;
+        border-radius: 10px;
+        transition: transform $gallery-transition-duration ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
